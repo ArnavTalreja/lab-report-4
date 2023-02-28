@@ -18,4 +18,14 @@ We then move on to cloning the repository onto the `ieng6` server.
   Keys Pressed: "git clo" <tab> <command + V>
 ```
 For this, I simply typed out `"git clo"` before hitting the `<tab>` key and allowing bash to auto-complete the command for me. I then pressed `<command + V>` to paste the link to the `lab7` repository I had copied to the clipboard earlier.
-  
+### 3. Compiling and running the code
+Then, its onto running the tester to test the code given to us.
+![Image](S3.jpg)
+```bash
+  1. Compiling the code:-
+    Keys Pressed: <Control + R> "jav" <enter>
+  2. Running the code:-
+    Keys Pressed: <Control + R> "java -c" <enter>
+```
+For this, I used the history function again. Typing `"jav"` brought up the command to compile all the java files in the repository at once. All I had to do was hit `<enter>`.
+I did the exact same thing for pulling up the command to run the code and once again, all I had to do was hit `<enter>`.
