@@ -40,5 +40,22 @@ So, the next step was to open up and edit the `ListExamples.java` file and fix t
   Keys Pressed: "nan" <tab> "Li" <tab> ".java" <enter> <Control + W> "index1"
 ```
 For doing so, I used the `nano` command. I then used the `Where is` function on the `nano` screen to navigate to line 42 where I switched `index1` with `index2`.
-
+### 5. Compiling and running the code (AGAIN!)
+Basically repeated step 3. here and everything was running smoothly!
+![Image](S3.jpg)
+```bash
+  1. Compiling the code:-
+    Keys Pressed: <Control + R> "jav" <enter>
+  2. Running the code:-
+    Keys Pressed: <Control + R> "java -c" <right arrow> "Li" <tab> "Te" <tab> ".java" <enter>
+```
+### 6. Pushing the updated file to GitHub
+We use the `git add` and `git commit -m` commands to push the updated file onto GitHub.
+![Image](S7.jpg)
+```bash
+  1. Adding ListExamples.java to the files that are to be commited
+    Keys Pressed: "git add" "Li" <tab> ".java" <enter>
+  2. Commit
+    Keys Pressed: "git commit -m 'Updated ListExamples.java' <enter>
+```
 
