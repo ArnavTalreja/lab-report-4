@@ -25,7 +25,20 @@ Then, its onto running the tester to test the code given to us.
   1. Compiling the code:-
     Keys Pressed: <Control + R> "jav" <enter>
   2. Running the code:-
-    Keys Pressed: <Control + R> "java -c" <enter>
+    Keys Pressed: <Control + R> "java -c" <right arrow> "Li" <tab> "Te" <tab> ".java" <enter>
 ```
 For this, I used the history function again. Typing `"jav"` brought up the command to compile all the java files in the repository at once. All I had to do was hit `<enter>`.
 I did the exact same thing for pulling up the command to run the code and once again, all I had to do was hit `<enter>`.
+### 4. Fixing the errors
+Compiling and running the tester displayed error messages which looked like the following:-
+![Image](S4.jpg)
+
+
+So, the next step was to open up and edit the `ListExamples.java` file and fix the bugs.\
+![Image](S5.jpg)
+```bash
+  Keys Pressed: "nan" <tab> "Li" <tab> ".java" <enter> <Control + W> "index1"
+```
+For doing so, I used the `nano` command. I then used the `Where is` function on the `nano` screen to navigate to line 42 where I switched `index1` with `index2`.
+
+
