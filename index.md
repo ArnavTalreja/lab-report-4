@@ -68,11 +68,19 @@ I then saved the file and exited nano.
   Keys Pressed: <Control + x> "Y"
 ```
 ### 5. Compiling and running the code (AGAIN!)
-Basically repeated step 3. here and everything was running smoothly!
+Basically repeated step 3. here and everything was running smoothly! The commands to be run to compile and run the code are as follows:-
+```bash
+  1. Command to compile:- 
+    $ javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-2.2.jar *.java
+  
+  2. Command to run: 
+    $ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-2.2.jar org.junit.runner.JUnitCore ListExamplesTests
+```
 ![Image](S3.jpg)
 ```bash
   1. Compiling the code:-
     Keys Pressed: <Control + R> "jav" <enter>
+    
   2. Running the code:-
     Keys Pressed: <Control + R> "java -c" <right arrow> "Li" <tab> "Te" <tab> ".java" <enter>
 ```
