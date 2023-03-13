@@ -27,11 +27,8 @@ For this, I simply typed out `"git clo"` before hitting the `<tab>` key and allo
 ### 3. Compiling and running the code
 Then, its onto running the tester to test the code given to us. The commands to be run to compile and run the code are as follows:-
 ```bash
-  1. Command to compile:- 
-    $ javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-2.2.jar *.java
-  
-  2. Command to run: 
-    $ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-2.2.jar org.junit.runner.JUnitCore ListExamplesTests
+  $ javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-2.2.jar *.java
+  $ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-2.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
 ![Image](S3.jpg)
 ```bash
@@ -70,11 +67,8 @@ I then saved the file and exited nano.
 ### 5. Compiling and running the code (AGAIN!)
 Basically repeated step 3. here and everything was running smoothly! The commands to be run to compile and run the code are as follows:-
 ```bash
-  1. Command to compile:- 
-    $ javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-2.2.jar *.java
-  
-  2. Command to run: 
-    $ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-2.2.jar org.junit.runner.JUnitCore ListExamplesTests
+  $ javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-2.2.jar *.java
+  $ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-2.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
 ![Image](S3.jpg)
 ```bash
@@ -87,11 +81,8 @@ Basically repeated step 3. here and everything was running smoothly! The command
 ### 6. Pushing the updated file to GitHub
 We use the `git add` and `git commit -m` commands to push the updated file onto GitHub. The commands are as follows:-
 ```bash
-  1. Adding ListExamples.java to the files that are to be commited:-
-    $ git add ListExamples.java
-  
-  2. Commit
-    $ git commit -m 'Updated ListExamples.java'
+  $ git add ListExamples.java
+  $ git commit -m 'Updated ListExamples.java'
 ```
 ![Image](S7.jpg)
 ```bash
