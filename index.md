@@ -85,12 +85,20 @@ Basically repeated step 3. here and everything was running smoothly! The command
     Keys Pressed: <Control + R> "java -c" <right arrow> "Li" <tab> "Te" <tab> ".java" <enter>
 ```
 ### 6. Pushing the updated file to GitHub
-We use the `git add` and `git commit -m` commands to push the updated file onto GitHub.
+We use the `git add` and `git commit -m` commands to push the updated file onto GitHub. The commands are as follows:-
+```bash
+  1. Adding ListExamples.java to the files that are to be commited:-
+    $ git add ListExamples.java
+  
+  2. Commit
+    $ git commit -m 'Updated ListExamples.java'
+```
 ![Image](S7.jpg)
 ```bash
-  1. Adding ListExamples.java to the files that are to be commited
+  1. Adding ListExamples.java to the files that are to be commited:-
     Keys Pressed: "git add" "Li" <tab> ".java" <enter>
-  2. Commit
+  
+  2. Commit:-
     Keys Pressed: "git commit -m 'Updated ListExamples.java' <enter>
 ```
 
