@@ -5,27 +5,41 @@ For setup, we'll be forking the `lab7` repository to our GitHub account.\
 Get the stopwatches out!
 ## 3... 2... 1... GO!
 ### 1. Logging into `ieng6` server
-We start off by logging into our course specific server.
+We start off by logging into our course specific server. Command to be run to log into the server is as follows:-
+```bash
+  $ ssh cs15lwi23ajk@ieng6.ucsd.edu
+```
 ![Image](S1.jpg)
 ```bash
   Keys Pressed: <Control + R> "ssh" <enter>
 ```
 For this, I used the history function. Typing out ssh brought up he login command right up and since I have the ssh passkey set, all I had to do was press `<enter>` and I was in. Pretty simple!
 ### 2. Cloning the repository
-We then move on to cloning the repository onto the `ieng6` server.
+We then move on to cloning the repository onto the `ieng6` server. Command to be run to clone the `lab7` repository onto the server are as follows:-
+```bash
+  $ git clone git@github.com:ArnavTalreja/lab7.git
+```
 ![Image](S2.jpg)
 ```bash
   Keys Pressed: "git clo" <tab> <command + V>
 ```
 For this, I simply typed out `"git clo"` before hitting the `<tab>` key and allowing bash to auto-complete the command for me. I then pressed `<command + V>` to paste the link to the `lab7` repository I had copied to the clipboard earlier.
 ### 3. Compiling and running the code
-Then, its onto running the tester to test the code given to us.
+Then, its onto running the tester to test the code given to us. The commands to be run to compile and run the code are as follows:-
+```bash
+  1. Command to compile:- 
+    $ javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-2.2.jar *.java
+  
+  2. Command to run: 
+    $ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-2.2.jar org.junit.runner.JUnitCore ListExamplesTests
+```
 ![Image](S3.jpg)
 ```bash
   1. Compiling the code:-
     Keys Pressed: <Control + R> "jav" <enter>
+  
   2. Running the code:-
-    Keys Pressed: <Control + R> "java -c" <right arrow> "Li" <tab> "Te" <tab> ".java" <enter>
+    Keys Pressed: <Control + R> "java -c" <right arrow> "Li" <tab> "Te" <tab> <enter>
 ```
 For this, I used the history function again. Typing `"jav"` brought up the command to compile all the java files in the repository at once. All I had to do was hit `<enter>`.
 I did the exact same thing for pulling up the command to run the code and once again, all I had to do was hit `<enter>`.
@@ -34,12 +48,25 @@ Compiling and running the tester displayed error messages which looked like the 
 ![Image](S4.jpg)
 
 
-So, the next step was to open up and edit the `ListExamples.java` file and fix the bugs.\
+So, the next step was to open up and edit the `ListExamples.java` file and fix the bugs. For doing so, I used the `nano` command. I then used the `Where is` function on the `nano` screen to navigate to the required lines. The command to open `ListExamples.java` using nano is as follows:-
+```bash
+  $ nano ListExample.java
+```
 ![Image](S5.jpg)
 ```bash
-  Keys Pressed: "nan" <tab> "Li" <tab> ".java" <enter> <Control + W> "index1"
+  Keys Pressed: "nan" <tab> "Li" <tab> ".java" <enter> <Control + W> "index1" <enter> <left> <left> <left> 
+                <left> <left> <fn + delete> "2" 
 ```
-For doing so, I used the `nano` command. I then used the `Where is` function on the `nano` screen to navigate to line 42 where I switched `index1` with `index2`.
+To fix the first bug, I used the `Where is` function on the `nano` screen to navigate to line 42 where I switched `index1` with `index2`.
+![Image](S9.jpg)
+```bash
+  Keys Pressed: <Control + W> "add" <left> <left> <left> <left> <fn + delete> <fn + delete> <fn + delete>
+```
+To fix the second bug, I used the `Where is` function on the `nano` screen to navigate to line 15 where I changed `result.add(0,s);` to `result.add(s);`.
+I then saved the file and exited nano.
+```bash
+  Keys Pressed: <Control + x> "Y"
+```
 ### 5. Compiling and running the code (AGAIN!)
 Basically repeated step 3. here and everything was running smoothly!
 ![Image](S3.jpg)
